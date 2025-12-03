@@ -90,3 +90,9 @@ https://huggingface.co/spaces/solitudee4907/bubble-sort-visualizer
 Author: Vũ Bảo 
 
 Course: CISC-121
+
+Acknowledgment:
+
+ - Gradio documentation
+
+ - Gemini and Chat GPT check my code
