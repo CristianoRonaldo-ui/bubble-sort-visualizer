@@ -16,7 +16,7 @@ Decomposition
 
  - The problem is broken down into smaller parts:
 
- - Parse the user input (comma-separated string → list of numbers)
+ - Parse the user input 
 
  - Implement the Bubble Sort algorithm
 
@@ -56,7 +56,7 @@ Input -> Processing -> Output
 
 Input:
 
- - String of comma-separated numbers (e.g., "3, 1, 4, 1, 5").
+ - String of comma-separated numbers (e.g., "3, 1, 4, 1, 5")
 
  - Sort order: Ascending or Descending
 
@@ -78,7 +78,7 @@ Output:
 
  - Sorted list as a comma-separated string
 
- - Step-by-step description of the algorithm’s behavior (if enabled)
+ - Step-by-step description of the algorithm’s behavior 
 
 
 2. Hugging Face Link
