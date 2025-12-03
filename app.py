@@ -54,7 +54,7 @@ def bubble_sort(numbers, order="Ascending", show_steps=True):
                 condition = arr[j] < arr[j + 1]
 
             if condition:
-                # Log before swap
+                
                 if show_steps:
                     steps_log.append(
                         f"Pass {i+1}, compare index {j} and {j+1}: "
@@ -71,7 +71,7 @@ def bubble_sort(numbers, order="Ascending", show_steps=True):
         if show_steps:
             steps_log.append(f"After pass {i+1}: {arr}")
 
-        # Optimization: stop if no elements were swapped in inner loop
+        
         if not swapped:
             if show_steps:
                 steps_log.append(
@@ -93,12 +93,12 @@ def run_bubble_sort(input_numbers: str, order: str, show_steps: bool):
     try:
         numbers = parse_input_numbers(input_numbers)
     except ValueError as e:
-        # Return error message in the steps box
+        
         return "", f"Error: {str(e)}\nExample input: 3, 1, 4, 1, 5"
 
     sorted_list, steps_log = bubble_sort(numbers, order=order, show_steps=show_steps)
 
-    # Format sorted list nicely
+    
     sorted_str = ", ".join(str(x) for x in sorted_list)
 
     if show_steps:
